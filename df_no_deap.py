@@ -251,7 +251,9 @@ for i in range(2000):
         nova_pop[j] = filhos[0]
         nova_pop[j+1] = filhos[1]
         j = j + 2
-    elitismo(melhor_pop)
+
+    #elitismo(melhor_pop)
+    
     pop = nova_pop.copy()
     nova_pop = np.zeros((TAM_POP, TAM_CROMO))
 
